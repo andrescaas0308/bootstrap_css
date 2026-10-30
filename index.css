@@ -1,10 +1,12 @@
 .row > div {
-    height: 130px;
     border: 3px solid black;
 }
 
-.Amarillo { background-color: yellow; }
-.Morado { background-color: purple; }
+.navbar { background-color: yellow; height: 50px; }
+.cards { background-color: purple; height: 550px;}
+.spaces {background-color: coral; height: 850px;}
+.section {background-color: chartreuse; height: 700px;}
+.footer {background-color: darkturquoise; height: 300px;}
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .row >.Morado {background-color: #008b9a !important;}
