@@ -1,0 +1,11 @@
+.row > div {
+    height: 130px;
+    border: 3px solid black;
+}
+
+.Amarillo { background-color: yellow; }
+.Morado { background-color: purple; }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .row >.Morado {background-color: #008b9a !important;}
+}
