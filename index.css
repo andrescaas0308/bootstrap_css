@@ -1,13 +1,17 @@
+body { background-color: #faf8f2; color: #253943; }
+h1, h2, h3 { color: #315e68; }
+
 .row > div {
-    border: 3px solid black;
+    border: 3px solid white;
+    padding: 15px;
 }
 
-.navbar { background-color: yellow; height: 50px; }
-.cards { background-color: purple; height: 550px;}
-.spaces {background-color: coral; height: 850px;}
-.section {background-color: chartreuse; height: 700px;}
-.footer {background-color: darkturquoise; height: 300px;}
+.navbar { background-color: #faf8f2; }
+.cards { background-color: #eee5f7; }
+.spaces {background-color: #fae9df; }
+.section {background-color: #e0f1e8; }
+.footer {background-color: #e1eef8; }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-    .row >.Morado {background-color: #008b9a !important;}
+    .row > .section {background-color: #e1eef8 !important;}
 }
